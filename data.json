@@ -628,24 +628,6 @@
         "type": "color"
       }
     },
-    "Dark Pastel": {
-      "Red": {
-        "value": "#ADA8A6",
-        "type": "color"
-      },
-      "Yellow": {
-        "value": "#ADAAA6",
-        "type": "color"
-      },
-      "Blue": {
-        "value": "#A5A8AC",
-        "type": "color"
-      },
-      "Green": {
-        "value": "#A1AAA5",
-        "type": "color"
-      }
-    },
     "Gradient": {
       "Fade to Grey": {
         "value": "linear-gradient(180deg, #FFFFFF 60%, #F2F2F2 100%)",
