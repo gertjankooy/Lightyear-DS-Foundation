@@ -710,27 +710,27 @@
         "type": "sizing"
       },
       "Close Friends": {
-        "value": "{size-16}",
+        "value": "{size-12}",
         "type": "sizing"
       },
       "Close-ish Friends": {
-        "value": "{size-24}",
+        "value": "{size-16}",
         "type": "sizing"
       },
       "Friends": {
-        "value": "{size-32}",
+        "value": "{size-20}",
         "type": "sizing"
       },
       "Acquaintances": {
-        "value": "{size-40}",
+        "value": "{size-24}",
         "type": "sizing"
       },
       "Distand Acquaintances": {
-        "value": "{size-56}",
+        "value": "{size-32}",
         "type": "sizing"
       },
       "Stranger": {
-        "value": "{size-80}",
+        "value": "{size-40}",
         "type": "sizing"
       }
     }
