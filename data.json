@@ -665,6 +665,162 @@
       }
     }
   },
+  "Typography": {
+    "Large Title": {
+      "value": {
+        "fontFamily": "{base-font-family}",
+        "fontWeight": "{font-weight-semibold}",
+        "lineHeight": "{line-height-40}",
+        "fontSize": "{font-size-32}",
+        "letterSpacing": "{letter-spacing--1,9}"
+      },
+      "type": "typography"
+    },
+    "Title 1": {
+      "value": {
+        "fontFamily": "{base-font-family}",
+        "fontWeight": "{font-weight-semibold}",
+        "lineHeight": "{line-height-36}",
+        "fontSize": "{font-size-28}",
+        "letterSpacing": "{letter-spacing--1,6}"
+      },
+      "type": "typography",
+      "description": "Heading 1 for the app"
+    },
+    "Title 2": {
+      "value": {
+        "fontFamily": "{base-font-family}",
+        "fontWeight": "{font-weight-medium}",
+        "lineHeight": "{line-height-32}",
+        "fontSize": "{font-size-24}",
+        "letterSpacing": "{letter-spacing--1,3}"
+      },
+      "type": "typography",
+      "description": "Heading 1 for the app"
+    },
+    "Title 3": {
+      "value": {
+        "fontFamily": "{base-font-family}",
+        "fontWeight": "{font-weight-medium}",
+        "lineHeight": "{line-height-24}",
+        "fontSize": "{font-size-17}",
+        "letterSpacing": "{letter-spacing-0}"
+      },
+      "type": "typography",
+      "description": "Heading 1 for the app"
+    },
+    "Headline": {
+      "value": {
+        "fontFamily": "{base-font-family}",
+        "fontWeight": "{font-weight-medium}",
+        "lineHeight": "{line-height-20}",
+        "fontSize": "{font-size-15}",
+        "letterSpacing": "{letter-spacing-0}"
+      },
+      "type": "typography",
+      "description": "Heading 1 for the app"
+    },
+    "Body": {
+      "value": {
+        "fontFamily": "{base-font-family}",
+        "fontWeight": "{font-weight-regular}",
+        "lineHeight": "{line-height-20}",
+        "fontSize": "{font-size-15}",
+        "letterSpacing": "{letter-spacing-0}"
+      },
+      "type": "typography",
+      "description": "Regular paragraph"
+    },
+    "Callout": {
+      "value": {
+        "fontFamily": "{base-font-family}",
+        "fontWeight": "{font-weight-bold}",
+        "lineHeight": "{line-height-16}",
+        "fontSize": "{font-size-13}",
+        "letterSpacing": "{letter-spacing-0}"
+      },
+      "type": "typography",
+      "description": "Regular paragraph"
+    },
+    "Subhead": {
+      "value": {
+        "fontFamily": "{base-font-family}",
+        "fontWeight": "{font-weight-medium}",
+        "lineHeight": "{line-height-16}",
+        "fontSize": "{font-size-13}",
+        "letterSpacing": "{letter-spacing-0}"
+      },
+      "type": "typography",
+      "description": "Regular paragraph"
+    },
+    "Footnote": {
+      "value": {
+        "fontFamily": "{base-font-family}",
+        "fontWeight": "{font-weight-regular}",
+        "lineHeight": "{line-height-16}",
+        "fontSize": "{font-size-13}",
+        "letterSpacing": "{letter-spacing-0}"
+      },
+      "type": "typography",
+      "description": "Regular paragraph"
+    },
+    "Caption 1": {
+      "value": {
+        "fontFamily": "{base-font-family}",
+        "fontWeight": "{font-weight-regular}",
+        "lineHeight": "{line-height-16}",
+        "fontSize": "{font-size-12}",
+        "letterSpacing": "{letter-spacing-0}"
+      },
+      "type": "typography",
+      "description": "Regular paragraph"
+    },
+    "Caption 2": {
+      "value": {
+        "fontFamily": "{base-font-family}",
+        "fontWeight": "{font-weight-regular}",
+        "lineHeight": "{line-height-16}",
+        "fontSize": "{font-size-11}",
+        "letterSpacing": "{letter-spacing-0}"
+      },
+      "type": "typography",
+      "description": "Regular paragraph"
+    },
+    "Button Label": {
+      "value": {
+        "fontFamily": "{base-font-family}",
+        "fontWeight": "{font-weight-semibold}",
+        "lineHeight": "{line-height-24}",
+        "fontSize": "{font-size-15}",
+        "letterSpacing": "{letter-spacing-0}"
+      },
+      "type": "typography",
+      "description": "Regular paragraph"
+    },
+    "Button Label Underlined": {
+      "value": {
+        "fontFamily": "{base-font-family}",
+        "fontWeight": "{font-weight-semibold}",
+        "lineHeight": "{line-height-24}",
+        "fontSize": "{font-size-15}",
+        "letterSpacing": "{letter-spacing-0}",
+        "textDecoration": "Underline"
+      },
+      "type": "typography",
+      "description": "Regular paragraph"
+    },
+    "Bottom Navigation Label": {
+      "value": {
+        "fontFamily": "{base-font-family}",
+        "fontWeight": "{font-weight-medium}",
+        "lineHeight": "{line-height-10}",
+        "fontSize": "{font-size-10}",
+        "letterSpacing": "{letter-spacing-0}"
+      },
+      "type": "typography",
+      "description": "Regular paragraph"
+    }
+  },
   "Spacing": {
     "Horizontal": {
       "BFF": {
@@ -1167,6 +1323,7 @@
   "$metadata": {
     "tokenSetOrder": [
       "Reference Tokens",
+      "Typography",
       "Spacing",
       "Light",
       "Dark"
