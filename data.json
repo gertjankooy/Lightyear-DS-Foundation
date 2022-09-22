@@ -502,6 +502,48 @@
         "type": "color"
       }
     },
+    "Coral": {
+      "100": {
+        "value": "#FFECE8",
+        "type": "color"
+      },
+      "200": {
+        "value": "#fcc9bc",
+        "type": "color"
+      },
+      "300": {
+        "value": "#FF9479",
+        "type": "color"
+      },
+      "400": {
+        "value": "#FF7656",
+        "type": "color"
+      },
+      "500": {
+        "value": "#FF5C39",
+        "type": "color"
+      },
+      "600": {
+        "value": "#E34827",
+        "type": "color"
+      },
+      "700": {
+        "value": "#C1381A",
+        "type": "color"
+      },
+      "800": {
+        "value": "#9B2A12",
+        "type": "color"
+      },
+      "900": {
+        "value": "#701E0C",
+        "type": "color"
+      },
+      "1000": {
+        "value": "#451308",
+        "type": "color"
+      }
+    },
     "Yellow": {
       "100": {
         "value": "#FFFAF5",
@@ -647,48 +689,6 @@
       },
       "Orange Fade Out Muted": {
         "value": "linear-gradient(180deg, rgba(248, 166, 70, 0.1) 0%, rgba(248, 166, 70, 0) 100%)",
-        "type": "color"
-      }
-    },
-    "Coral": {
-      "100": {
-        "value": "#FFECE8",
-        "type": "color"
-      },
-      "200": {
-        "value": "#FFB5A2",
-        "type": "color"
-      },
-      "300": {
-        "value": "#FF9479",
-        "type": "color"
-      },
-      "400": {
-        "value": "#FF7656",
-        "type": "color"
-      },
-      "500": {
-        "value": "#FF5C39",
-        "type": "color"
-      },
-      "600": {
-        "value": "#E34827",
-        "type": "color"
-      },
-      "700": {
-        "value": "#C1381A",
-        "type": "color"
-      },
-      "800": {
-        "value": "#9B2A12",
-        "type": "color"
-      },
-      "900": {
-        "value": "#701E0C",
-        "type": "color"
-      },
-      "1000": {
-        "value": "#451308",
         "type": "color"
       }
     }
