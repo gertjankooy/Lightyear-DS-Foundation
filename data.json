@@ -665,6 +665,76 @@
       }
     }
   },
+  "Spacing": {
+    "Horizontal": {
+      "BFF": {
+        "value": "{size-4}",
+        "type": "sizing"
+      },
+      "Best Friends": {
+        "value": "{size-8}",
+        "type": "sizing"
+      },
+      "Close Friends": {
+        "value": "{size-16}",
+        "type": "sizing"
+      },
+      "Close-ish Friends": {
+        "value": "{size-24}",
+        "type": "sizing"
+      },
+      "Friends": {
+        "value": "{size-32}",
+        "type": "sizing"
+      },
+      "Acquaintances": {
+        "value": "{size-40}",
+        "type": "sizing"
+      },
+      "Distand Acquaintances": {
+        "value": "{size-56}",
+        "type": "sizing"
+      },
+      "Stranger": {
+        "value": "{size-80}",
+        "type": "sizing"
+      }
+    },
+    "Vertical": {
+      "BFF": {
+        "value": "{size-4}",
+        "type": "sizing"
+      },
+      "Best Friends": {
+        "value": "{size-8}",
+        "type": "sizing"
+      },
+      "Close Friends": {
+        "value": "{size-16}",
+        "type": "sizing"
+      },
+      "Close-ish Friends": {
+        "value": "{size-24}",
+        "type": "sizing"
+      },
+      "Friends": {
+        "value": "{size-32}",
+        "type": "sizing"
+      },
+      "Acquaintances": {
+        "value": "{size-40}",
+        "type": "sizing"
+      },
+      "Distand Acquaintances": {
+        "value": "{size-56}",
+        "type": "sizing"
+      },
+      "Stranger": {
+        "value": "{size-80}",
+        "type": "sizing"
+      }
+    }
+  },
   "Light": {
     "Key": {
       "Primary": {
@@ -1097,6 +1167,7 @@
   "$metadata": {
     "tokenSetOrder": [
       "Reference Tokens",
+      "Spacing",
       "Light",
       "Dark"
     ]
