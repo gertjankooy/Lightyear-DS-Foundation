@@ -699,27 +699,6 @@
   },
   "Typography": {
     "App": {
-      "Large Title": {
-        "value": {
-          "fontFamily": "{base-font-family}",
-          "fontWeight": "{font-weight-semibold}",
-          "lineHeight": "{line-height-40}",
-          "fontSize": "{font-size-32}",
-          "letterSpacing": "{letter-spacing--1,9}"
-        },
-        "type": "typography"
-      },
-      "Title 1": {
-        "value": {
-          "fontFamily": "{base-font-family}",
-          "fontWeight": "{font-weight-semibold}",
-          "lineHeight": "{line-height-36}",
-          "fontSize": "{font-size-28}",
-          "letterSpacing": "{letter-spacing--1,6}"
-        },
-        "type": "typography",
-        "description": "Heading 1 for the app"
-      },
       "Title 2": {
         "value": {
           "fontFamily": "{base-font-family}",
@@ -808,17 +787,6 @@
         "type": "typography",
         "description": "Regular paragraph"
       },
-      "Caption 2": {
-        "value": {
-          "fontFamily": "{base-font-family}",
-          "fontWeight": "{font-weight-regular}",
-          "lineHeight": "{line-height-16}",
-          "fontSize": "{font-size-11}",
-          "letterSpacing": "{letter-spacing-0}"
-        },
-        "type": "typography",
-        "description": "Regular paragraph"
-      },
       "Button Label": {
         "value": {
           "fontFamily": "{base-font-family}",
@@ -829,20 +797,9 @@
         },
         "type": "typography",
         "description": "Regular paragraph"
-      },
-      "Bottom Navigation Label": {
-        "value": {
-          "fontFamily": "{base-font-family}",
-          "fontWeight": "{font-weight-medium}",
-          "lineHeight": "{line-height-10}",
-          "fontSize": "{font-size-10}",
-          "letterSpacing": "{letter-spacing-0}"
-        },
-        "type": "typography",
-        "description": "Regular paragraph"
       }
     },
-    "Car Infotainment Cluster": {
+    "Car Infotainment": {
       "Extra Large": {
         "value": {
           "fontFamily": "{base-font-family}",
