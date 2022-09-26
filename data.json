@@ -847,7 +847,7 @@
         "value": {
           "fontFamily": "{base-font-family}",
           "fontWeight": "{font-weight-medium}",
-          "lineHeight": "{line-height-56}",
+          "lineHeight": "Auto",
           "fontSize": "{font-size-40}",
           "letterSpacing": "{letter-spacing-0}"
         },
@@ -857,7 +857,7 @@
         "value": {
           "fontFamily": "{base-font-family}",
           "fontWeight": "{font-weight-medium}",
-          "lineHeight": "{line-height-40}",
+          "lineHeight": "Auto",
           "fontSize": "{font-size-32}",
           "letterSpacing": "{letter-spacing-0}"
         },
@@ -867,7 +867,7 @@
         "value": {
           "fontFamily": "{base-font-family}",
           "fontWeight": "{font-weight-medium}",
-          "lineHeight": "{line-height-36}",
+          "lineHeight": "Auto",
           "fontSize": "{font-size-26}",
           "letterSpacing": "{letter-spacing-0}"
         },
@@ -877,7 +877,7 @@
         "value": {
           "fontFamily": "{base-font-family}",
           "fontWeight": "{font-weight-medium}",
-          "lineHeight": "{line-height-32}",
+          "lineHeight": "Auto",
           "fontSize": "{font-size-22}",
           "letterSpacing": "{letter-spacing-0}"
         },
