@@ -789,7 +789,7 @@
       }
     },
     "Car Infotainment": {
-      "Heaading 1": {
+      "Heading 1": {
         "value": {
           "fontFamily": "{base-font-family}",
           "fontWeight": "{font-weight-medium}",
