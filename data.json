@@ -699,7 +699,7 @@
   },
   "Typography": {
     "App": {
-      "Title 2": {
+      "Heading 1": {
         "value": {
           "fontFamily": "{base-font-family}",
           "fontWeight": "{font-weight-medium}",
@@ -710,7 +710,7 @@
         "type": "typography",
         "description": "Heading 1 for the app"
       },
-      "Title 3": {
+      "Heading 2": {
         "value": {
           "fontFamily": "{base-font-family}",
           "fontWeight": "{font-weight-medium}",
@@ -721,7 +721,7 @@
         "type": "typography",
         "description": "Heading 1 for the app"
       },
-      "Headline": {
+      "Heading 3": {
         "value": {
           "fontFamily": "{base-font-family}",
           "fontWeight": "{font-weight-medium}",
@@ -743,7 +743,7 @@
         "type": "typography",
         "description": "Regular paragraph"
       },
-      "Subhead": {
+      "Subheading": {
         "value": {
           "fontFamily": "{base-font-family}",
           "fontWeight": "{font-weight-medium}",
@@ -765,7 +765,7 @@
         "type": "typography",
         "description": "Regular paragraph"
       },
-      "Caption 1": {
+      "Caption": {
         "value": {
           "fontFamily": "{base-font-family}",
           "fontWeight": "{font-weight-regular}",
@@ -776,7 +776,7 @@
         "type": "typography",
         "description": "Regular paragraph"
       },
-      "Button Label": {
+      "Button": {
         "value": {
           "fontFamily": "{base-font-family}",
           "fontWeight": "{font-weight-semibold}",
@@ -789,7 +789,7 @@
       }
     },
     "Car Infotainment": {
-      "Extra Large": {
+      "Heaading 1": {
         "value": {
           "fontFamily": "{base-font-family}",
           "fontWeight": "{font-weight-medium}",
@@ -799,7 +799,7 @@
         },
         "type": "typography"
       },
-      "Large": {
+      "Heading 2": {
         "value": {
           "fontFamily": "{base-font-family}",
           "fontWeight": "{font-weight-medium}",
@@ -809,7 +809,7 @@
         },
         "type": "typography"
       },
-      "Medium": {
+      "Heading 3": {
         "value": {
           "fontFamily": "{base-font-family}",
           "fontWeight": "{font-weight-medium}",
@@ -819,7 +819,17 @@
         },
         "type": "typography"
       },
-      "Small": {
+      "Body": {
+        "value": {
+          "fontFamily": "{base-font-family}",
+          "fontWeight": "{font-weight-medium}",
+          "lineHeight": "Auto",
+          "fontSize": "{font-size-22}",
+          "letterSpacing": "{letter-spacing-0}"
+        },
+        "type": "typography"
+      },
+      "Button": {
         "value": {
           "fontFamily": "{base-font-family}",
           "fontWeight": "{font-weight-medium}",
