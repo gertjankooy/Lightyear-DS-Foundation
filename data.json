@@ -743,17 +743,6 @@
         "type": "typography",
         "description": "Regular paragraph"
       },
-      "Callout": {
-        "value": {
-          "fontFamily": "{base-font-family}",
-          "fontWeight": "{font-weight-bold}",
-          "lineHeight": "{line-height-16}",
-          "fontSize": "{font-size-13}",
-          "letterSpacing": "{letter-spacing-0}"
-        },
-        "type": "typography",
-        "description": "Regular paragraph"
-      },
       "Subhead": {
         "value": {
           "fontFamily": "{base-font-family}",
