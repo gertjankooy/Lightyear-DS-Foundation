@@ -2315,7 +2315,7 @@
           "type": "color"
         },
         "On-Surface-Subdued": {
-          "value": "{Neutral.40}",
+          "value": "{Neutral.60}",
           "type": "color"
         },
         "Surface-Variant": {
@@ -2327,7 +2327,7 @@
           "type": "color"
         },
         "On-Surface-Variant-Subdued": {
-          "value": "{Neutral.30}",
+          "value": "{Neutral.70}",
           "type": "color"
         }
       },
