@@ -750,6 +750,10 @@
       "value": "80",
       "type": "sizing"
     },
+    "size-96": {
+      "value": "96",
+      "type": "sizing"
+    },
     "space-2": {
       "value": "2",
       "type": "spacing"
@@ -804,6 +808,10 @@
     },
     "space-80": {
       "value": "80",
+      "type": "spacing"
+    },
+    "space-96": {
+      "value": "96",
       "type": "spacing"
     },
     "radii-2": {
@@ -1694,73 +1702,37 @@
     }
   },
   "Spacing": {
-    "Horizontal": {
-      "BFF": {
-        "value": "{size-4}",
-        "type": "sizing"
-      },
-      "Best Friends": {
-        "value": "{size-8}",
-        "type": "sizing"
-      },
-      "Close Friends": {
-        "value": "{size-16}",
-        "type": "sizing"
-      },
-      "Close-ish Friends": {
-        "value": "{size-24}",
-        "type": "sizing"
-      },
-      "Friends": {
-        "value": "{size-32}",
-        "type": "sizing"
-      },
-      "Acquaintances": {
-        "value": "{size-40}",
-        "type": "sizing"
-      },
-      "Distand Acquaintances": {
-        "value": "{size-56}",
-        "type": "sizing"
-      },
-      "Stranger": {
-        "value": "{size-80}",
-        "type": "sizing"
-      }
+    "BFF": {
+      "value": "{space-4}",
+      "type": "sizing"
     },
-    "Vertical": {
-      "BFF": {
-        "value": "{size-4}",
-        "type": "sizing"
-      },
-      "Best Friends": {
-        "value": "{size-8}",
-        "type": "sizing"
-      },
-      "Close Friends": {
-        "value": "{size-12}",
-        "type": "sizing"
-      },
-      "Close-ish Friends": {
-        "value": "{size-16}",
-        "type": "sizing"
-      },
-      "Friends": {
-        "value": "{size-20}",
-        "type": "sizing"
-      },
-      "Acquaintances": {
-        "value": "{size-24}",
-        "type": "sizing"
-      },
-      "Distand Acquaintances": {
-        "value": "{size-32}",
-        "type": "sizing"
-      },
-      "Stranger": {
-        "value": "{size-40}",
-        "type": "sizing"
-      }
+    "Best Friends": {
+      "value": "{space-8}",
+      "type": "sizing"
+    },
+    "Close Friends": {
+      "value": "{space-12}",
+      "type": "sizing"
+    },
+    "Close-ish Friends": {
+      "value": "{space-24}",
+      "type": "sizing"
+    },
+    "Friends": {
+      "value": "{space-32}",
+      "type": "sizing"
+    },
+    "Acquaintances": {
+      "value": "{space-48}",
+      "type": "sizing"
+    },
+    "Distand Acquaintances": {
+      "value": "{space-64}",
+      "type": "sizing"
+    },
+    "Stranger": {
+      "value": "{space-96}",
+      "type": "sizing"
     }
   },
   "Light": {
