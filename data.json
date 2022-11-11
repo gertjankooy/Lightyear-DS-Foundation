@@ -1606,127 +1606,137 @@
       "value": "{space-96}",
       "type": "sizing"
     },
-    "Light": {
+    "LY-FD": {
       "Main": {
-        "Primary": {
-          "value": "{Neutral.90}",
-          "type": "color"
-        },
-        "On-Primary": {
-          "value": "{Neutral.0}",
-          "type": "color"
-        },
-        "Secondary": {
-          "value": "{Neutral.80}",
-          "type": "color"
-        },
-        "On-Secondary": {
-          "value": "{Neutral.20}",
-          "type": "color"
+        "Light": {
+          "Primary": {
+            "value": "{Neutral.90}",
+            "type": "color"
+          },
+          "On-Primary": {
+            "value": "{Neutral.0}",
+            "type": "color"
+          },
+          "Secondary": {
+            "value": "{Neutral.80}",
+            "type": "color"
+          },
+          "On-Secondary": {
+            "value": "{Neutral.20}",
+            "type": "color"
+          }
         }
       },
       "System": {
-        "Error": {
-          "value": "{Error.50}",
-          "type": "color"
-        },
-        "On-Error": {
-          "value": "{Error.0}",
-          "type": "color"
-        },
-        "Error-Container": {
-          "value": "{Error.10}",
-          "type": "color"
-        },
-        "On-Error-Container": {
-          "value": "{Error.70}",
-          "type": "color"
-        },
-        "Warning": {
-          "value": "{Warning.50}",
-          "type": "color"
-        },
-        "On-Warning": {
-          "value": "{Warning.0}",
-          "type": "color"
-        },
-        "Warning-Container": {
-          "value": "{Warning.10}",
-          "type": "color"
-        },
-        "On-Warning-Container": {
-          "value": "{Warning.70}",
-          "type": "color"
-        },
-        "Success": {
-          "value": "{Success.50}",
-          "type": "color"
-        },
-        "On-Success": {
-          "value": "{Success.0}",
-          "type": "color"
-        },
-        "Success-Container": {
-          "value": "{Success.10}",
-          "type": "color"
-        },
-        "On-Success-Container": {
-          "value": "{Success.70}",
-          "type": "color"
-        },
-        "Informative": {
-          "value": "{Informative.50}",
-          "type": "color"
-        },
-        "On-Informative": {
-          "value": "{Informative.0}",
-          "type": "color"
-        },
-        "Informative-Container": {
-          "value": "{Informative.10}",
-          "type": "color"
-        },
-        "On-Informative-Container": {
-          "value": "{Informative.70}",
-          "type": "color"
+        "Light": {
+          "Error": {
+            "value": "{Error.50}",
+            "type": "color"
+          },
+          "On-Error": {
+            "value": "{Error.0}",
+            "type": "color"
+          },
+          "Error-Container": {
+            "value": "{Error.10}",
+            "type": "color"
+          },
+          "On-Error-Container": {
+            "value": "{Error.70}",
+            "type": "color"
+          },
+          "Warning": {
+            "value": "{Warning.50}",
+            "type": "color"
+          },
+          "On-Warning": {
+            "value": "{Warning.0}",
+            "type": "color"
+          },
+          "Warning-Container": {
+            "value": "{Warning.10}",
+            "type": "color"
+          },
+          "On-Warning-Container": {
+            "value": "{Warning.70}",
+            "type": "color"
+          },
+          "Success": {
+            "value": "{Success.50}",
+            "type": "color"
+          },
+          "On-Success": {
+            "value": "{Success.0}",
+            "type": "color"
+          },
+          "Success-Container": {
+            "value": "{Success.10}",
+            "type": "color"
+          },
+          "On-Success-Container": {
+            "value": "{Success.70}",
+            "type": "color"
+          },
+          "Informative": {
+            "value": "{Informative.50}",
+            "type": "color"
+          },
+          "On-Informative": {
+            "value": "{Informative.0}",
+            "type": "color"
+          },
+          "Informative-Container": {
+            "value": "{Informative.10}",
+            "type": "color"
+          },
+          "On-Informative-Container": {
+            "value": "{Informative.70}",
+            "type": "color"
+          }
         }
       },
       "Surface": {
-        "Interted": {
-          "value": "{Neutral.80}",
-          "type": "color"
-        },
-        "On-Interted": {
-          "value": "{Neutral.10}",
-          "type": "color"
-        },
-        "Background": {
-          "value": "{Neutral.5}",
-          "type": "color"
-        },
-        "Surface": {
-          "value": "{Neutral.0}",
-          "type": "color"
-        },
-        "Surface-Variant": {
-          "value": "{Neutral.15}",
-          "type": "color"
-        },
-        "Outline": {
-          "value": "{Neutral.20}",
-          "type": "color"
-        },
-        "Outline-Variant": {
-          "value": "{Neutral.30}",
-          "type": "color"
+        "Light": {
+          "Interted": {
+            "value": "{Neutral.80}",
+            "type": "color"
+          },
+          "On-Interted": {
+            "value": "{Neutral.10}",
+            "type": "color"
+          },
+          "Background": {
+            "value": "{Neutral.5}",
+            "type": "color"
+          },
+          "Surface": {
+            "value": "{Neutral.0}",
+            "type": "color"
+          },
+          "Surface-Variant": {
+            "value": "{Neutral.15}",
+            "type": "color"
+          },
+          "Outline": {
+            "value": "{Neutral.20}",
+            "type": "color"
+          },
+          "Outline-Variant": {
+            "value": "{Neutral.30}",
+            "type": "color"
+          }
         }
       },
       "Decorative": {
-        "Solar": {
-          "value": "#FDBD4D",
-          "type": "color"
+        "Light": {
+          "Solar": {
+            "value": "#FDBD4D",
+            "type": "color"
+          }
         }
-      },
+      }
+    },
+    "Light": {
       "Opac-1": {
         "value": "{opacity-80}",
         "type": "opacity",
