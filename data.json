@@ -733,7 +733,7 @@
       }
     }
   },
-  "System Tokens": {
+  "Foundation Tokens": {
     "App": {
       "Heading 1": {
         "value": {
@@ -1083,7 +1083,7 @@
       },
       "Surface": {
         "Light": {
-          "Interted": {
+          "Inverted": {
             "value": "{Neutral.80}",
             "type": "color"
           },
@@ -1113,7 +1113,7 @@
           }
         },
         "Dark": {
-          "Interted": {
+          "Inverted": {
             "value": "{Neutral.20}",
             "type": "color"
           },
@@ -1277,7 +1277,7 @@
   "$metadata": {
     "tokenSetOrder": [
       "Reference Tokens",
-      "System Tokens"
+      "Foundation Tokens"
     ]
   }
 }
