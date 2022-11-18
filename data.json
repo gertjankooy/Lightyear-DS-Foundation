@@ -923,7 +923,7 @@
             "value": "{Neutral.80}",
             "type": "color"
           },
-          "On-Secondary": {
+          "Secondary-Container": {
             "value": "{Neutral.20}",
             "type": "color"
           }
@@ -941,7 +941,7 @@
             "value": "{Neutral.15}",
             "type": "color"
           },
-          "On-Secondary": {
+          "Secondary-Container": {
             "value": "{Neutral.80}",
             "type": "color"
           }
