@@ -1024,7 +1024,7 @@
             "type": "color"
           },
           "Error-Container": {
-            "value": "{Error.85}",
+            "value": "{Error.80}",
             "type": "color"
           },
           "On-Error-Container": {
@@ -1040,7 +1040,7 @@
             "type": "color"
           },
           "Warning-Container": {
-            "value": "{Warning.85}",
+            "value": "{Warning.80}",
             "type": "color"
           },
           "On-Warning-Container": {
@@ -1056,7 +1056,7 @@
             "type": "color"
           },
           "Success-Container": {
-            "value": "{Success.85}",
+            "value": "{Success.80}",
             "type": "color"
           },
           "On-Success-Container": {
@@ -1072,7 +1072,7 @@
             "type": "color"
           },
           "Informative-Container": {
-            "value": "{Informative.85}",
+            "value": "{Informative.80}",
             "type": "color"
           },
           "On-Informative-Container": {
@@ -1161,19 +1161,23 @@
         "On-Light": {
           "Focussed": {
             "value": "rgba({Neutral.90}, 0.12)",
-            "type": "color"
+            "type": "color",
+            "description": "<token>rgba({primary}, {opac-5})</token>\n"
           },
           "Focussed-Primary": {
             "value": "rgba({Neutral.0}, 0.12)",
-            "type": "color"
+            "type": "color",
+            "description": "<token>rgba({on-primary}, {opac-5})</token>\n"
           },
           "Active": {
             "value": "rgba({Neutral.80}, 1.0)",
-            "type": "color"
+            "type": "color",
+            "description": "<token>rgba({inverted})</token>\n"
           },
           "Enabled": {
             "value": "rgba({Neutral.20}, 1.0)",
-            "type": "color"
+            "type": "color",
+            "description": "<token>rgba({secondary-container})</token>\n"
           },
           "Highlight": {
             "value": "rgba(#3CCFDF, 1.0)",
@@ -1181,29 +1185,35 @@
           },
           "Disabled-Content": {
             "value": "rgba({Neutral.80}, 0.38)",
-            "type": "color"
+            "type": "color",
+            "description": "<token>rgba({inverted}, {opac-3})</token>\n"
           },
           "Disabled-Container": {
             "value": "rgba({Neutral.80}, 0.12)",
-            "type": "color"
+            "type": "color",
+            "description": "<token>rgba({inverted}, {opac-5})</token>\n"
           }
         },
         "On-Dark": {
-          "Focussed": {
+          "Focused": {
             "value": "rgba({Neutral.0}, 0.08)",
-            "type": "color"
+            "type": "color",
+            "description": "<token>rgba({primary}, {opac-5})</token>\n"
           },
-          "Focussed-Primary": {
+          "Focused-Primary": {
             "value": "rgba({Neutral.90}, 0.08)",
-            "type": "color"
+            "type": "color",
+            "description": "<token>rgba({on-primary}, {opac-5})</token>\n"
           },
           "Active": {
             "value": "rgba({Neutral.20}, 1.0)",
-            "type": "color"
+            "type": "color",
+            "description": "<token>rgba({inverted})</token>\n"
           },
           "Enabled": {
             "value": "rgba({Neutral.80}, 1.0)",
-            "type": "color"
+            "type": "color",
+            "description": "<token>rgba({secondary-container})</token>\n"
           },
           "Highlight": {
             "value": "rgba(#63D9E5, 1.0)",
@@ -1211,10 +1221,26 @@
           },
           "Disabled-Content": {
             "value": "rgba({Neutral.20}, 0.30)",
-            "type": "color"
+            "type": "color",
+            "description": "<token>rgba({inverted}, {opac-3})</token>\n"
           },
           "Disabled-Container": {
             "value": "rgba({Neutral.20}, 0.08)",
+            "type": "color",
+            "description": "<token>rgba({inverted}, {opac-5})</token>\n"
+          }
+        }
+      },
+      "Overlays": {
+        "Light": {
+          "Partial-Scrim": {
+            "value": "linear-gradient(180deg, rgba({Neutral.15}, 1.0) 0%, rgba({Neutral.15}, 0.0) 100%)",
+            "type": "color"
+          }
+        },
+        "Dark": {
+          "Partial-Scrim-copy": {
+            "value": "linear-gradient(180deg, rgba({Neutral.100}, 1.0) 0%, rgba({Neutral.100}, 0.0) 100%)",
             "type": "color"
           }
         }
@@ -1271,6 +1297,22 @@
         "type": "opacity",
         "description": "Disabled Container"
       }
+    },
+    "small": {
+      "value": "{radii-8}",
+      "type": "borderRadius"
+    },
+    "medium": {
+      "value": "{radii-16}",
+      "type": "borderRadius"
+    },
+    "large": {
+      "value": "{radii-24}",
+      "type": "borderRadius"
+    },
+    "rounded": {
+      "value": "{radii-32}",
+      "type": "borderRadius"
     }
   },
   "$themes": [],
