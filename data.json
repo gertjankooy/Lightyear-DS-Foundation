@@ -876,37 +876,39 @@
         "type": "typography"
       }
     },
-    "BFF": {
-      "value": "{space-4}",
-      "type": "sizing"
-    },
-    "Best Friends": {
-      "value": "{space-8}",
-      "type": "sizing"
-    },
-    "Close Friends": {
-      "value": "{space-12}",
-      "type": "sizing"
-    },
-    "Close-ish Friends": {
-      "value": "{space-24}",
-      "type": "sizing"
-    },
-    "Friends": {
-      "value": "{space-32}",
-      "type": "sizing"
-    },
-    "Acquaintances": {
-      "value": "{space-48}",
-      "type": "sizing"
-    },
-    "Distand Acquaintances": {
-      "value": "{space-64}",
-      "type": "sizing"
-    },
-    "Stranger": {
-      "value": "{space-96}",
-      "type": "sizing"
+    "spacing": {
+      "BFF": {
+        "value": "{space-4}",
+        "type": "sizing"
+      },
+      "Best-Friends": {
+        "value": "{space-8}",
+        "type": "sizing"
+      },
+      "Close-Friends": {
+        "value": "{space-12}",
+        "type": "sizing"
+      },
+      "Close-ish-Friends": {
+        "value": "{space-24}",
+        "type": "sizing"
+      },
+      "Friends": {
+        "value": "{space-32}",
+        "type": "sizing"
+      },
+      "Acquaintances": {
+        "value": "{space-48}",
+        "type": "sizing"
+      },
+      "Distand-Acquaintances": {
+        "value": "{space-64}",
+        "type": "sizing"
+      },
+      "Stranger": {
+        "value": "{space-96}",
+        "type": "sizing"
+      }
     },
     "light": {
       "main": {
@@ -1307,6 +1309,16 @@
           "value": "rgba({light.surface.Inverted}, 0.12)",
           "type": "color",
           "description": "<token>rgba({inverted}, {opac-5})</token>\n"
+        }
+      }
+    },
+    "app": {
+      "button": {
+        "primary": {
+          "height": {
+            "value": "{size-48}",
+            "type": "sizing"
+          }
         }
       }
     }
