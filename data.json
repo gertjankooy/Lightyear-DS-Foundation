@@ -1,5 +1,5 @@
 {
-  "Reference Tokens": {
+  "Core Tokens": {
     "size-4": {
       "value": "4",
       "type": "sizing"
@@ -733,7 +733,7 @@
       }
     }
   },
-  "Foundation Tokens": {
+  "Base Tokens": {
     "App": {
       "Heading 1": {
         "value": {
@@ -908,341 +908,131 @@
       "value": "{space-96}",
       "type": "sizing"
     },
-    "LY-FD": {
-      "Main": {
-        "Light": {
-          "Primary": {
-            "value": "{Neutral.90}",
-            "type": "color"
-          },
-          "On-Primary": {
-            "value": "{Neutral.0}",
-            "type": "color"
-          },
-          "Secondary": {
-            "value": "{Neutral.80}",
-            "type": "color"
-          },
-          "Secondary-Container": {
-            "value": "{Neutral.20}",
-            "type": "color"
-          }
+    "light": {
+      "main": {
+        "Primary": {
+          "value": "{Neutral.90}",
+          "type": "color"
         },
-        "Dark": {
-          "Primary": {
-            "value": "{Neutral.0}",
-            "type": "color"
-          },
-          "On-Primary": {
-            "value": "{Neutral.90}",
-            "type": "color"
-          },
-          "Secondary": {
-            "value": "{Neutral.15}",
-            "type": "color"
-          },
-          "Secondary-Container": {
-            "value": "{Neutral.80}",
-            "type": "color"
-          }
+        "On-Primary": {
+          "value": "{Neutral.0}",
+          "type": "color"
+        },
+        "Secondary": {
+          "value": "{Neutral.80}",
+          "type": "color"
+        },
+        "Secondary-Container": {
+          "value": "{Neutral.20}",
+          "type": "color"
         }
       },
-      "System": {
-        "Light": {
-          "Error": {
-            "value": "{Error.50}",
-            "type": "color"
-          },
-          "On-Error": {
-            "value": "{Error.0}",
-            "type": "color"
-          },
-          "Error-Container": {
-            "value": "{Error.10}",
-            "type": "color"
-          },
-          "On-Error-Container": {
-            "value": "{Error.70}",
-            "type": "color"
-          },
-          "Warning": {
-            "value": "{Warning.50}",
-            "type": "color"
-          },
-          "On-Warning": {
-            "value": "{Warning.0}",
-            "type": "color"
-          },
-          "Warning-Container": {
-            "value": "{Warning.10}",
-            "type": "color"
-          },
-          "On-Warning-Container": {
-            "value": "{Warning.70}",
-            "type": "color"
-          },
-          "Success": {
-            "value": "{Success.50}",
-            "type": "color"
-          },
-          "On-Success": {
-            "value": "{Success.0}",
-            "type": "color"
-          },
-          "Success-Container": {
-            "value": "{Success.10}",
-            "type": "color"
-          },
-          "On-Success-Container": {
-            "value": "{Success.70}",
-            "type": "color"
-          },
-          "Informative": {
-            "value": "{Informative.50}",
-            "type": "color"
-          },
-          "On-Informative": {
-            "value": "{Informative.0}",
-            "type": "color"
-          },
-          "Informative-Container": {
-            "value": "{Informative.10}",
-            "type": "color"
-          },
-          "On-Informative-Container": {
-            "value": "{Informative.70}",
-            "type": "color"
-          }
+      "system": {
+        "Error": {
+          "value": "{Error.50}",
+          "type": "color"
         },
-        "Dark": {
-          "Error": {
-            "value": "{Error.40}",
-            "type": "color"
-          },
-          "On-Error": {
-            "value": "{Error.90}",
-            "type": "color"
-          },
-          "Error-Container": {
-            "value": "{Error.80}",
-            "type": "color"
-          },
-          "On-Error-Container": {
-            "value": "{Error.20}",
-            "type": "color"
-          },
-          "Warning": {
-            "value": "{Warning.40}",
-            "type": "color"
-          },
-          "On-Warning": {
-            "value": "{Warning.90}",
-            "type": "color"
-          },
-          "Warning-Container": {
-            "value": "{Warning.80}",
-            "type": "color"
-          },
-          "On-Warning-Container": {
-            "value": "{Warning.20}",
-            "type": "color"
-          },
-          "Success": {
-            "value": "{Success.40}",
-            "type": "color"
-          },
-          "On-Success": {
-            "value": "{Success.90}",
-            "type": "color"
-          },
-          "Success-Container": {
-            "value": "{Success.80}",
-            "type": "color"
-          },
-          "On-Success-Container": {
-            "value": "{Success.20}",
-            "type": "color"
-          },
-          "Informative": {
-            "value": "{Informative.40}",
-            "type": "color"
-          },
-          "On-Informative": {
-            "value": "{Informative.90}",
-            "type": "color"
-          },
-          "Informative-Container": {
-            "value": "{Informative.80}",
-            "type": "color"
-          },
-          "On-Informative-Container": {
-            "value": "{Informative.20}",
-            "type": "color"
-          }
+        "On-Error": {
+          "value": "{Error.0}",
+          "type": "color"
+        },
+        "Error-Container": {
+          "value": "{Error.10}",
+          "type": "color"
+        },
+        "On-Error-Container": {
+          "value": "{Error.70}",
+          "type": "color"
+        },
+        "Warning": {
+          "value": "{Warning.50}",
+          "type": "color"
+        },
+        "On-Warning": {
+          "value": "{Warning.0}",
+          "type": "color"
+        },
+        "Warning-Container": {
+          "value": "{Warning.10}",
+          "type": "color"
+        },
+        "On-Warning-Container": {
+          "value": "{Warning.70}",
+          "type": "color"
+        },
+        "Success": {
+          "value": "{Success.50}",
+          "type": "color"
+        },
+        "On-Success": {
+          "value": "{Success.0}",
+          "type": "color"
+        },
+        "Success-Container": {
+          "value": "{Success.10}",
+          "type": "color"
+        },
+        "On-Success-Container": {
+          "value": "{Success.70}",
+          "type": "color"
+        },
+        "Informative": {
+          "value": "{Informative.50}",
+          "type": "color"
+        },
+        "On-Informative": {
+          "value": "{Informative.0}",
+          "type": "color"
+        },
+        "Informative-Container": {
+          "value": "{Informative.10}",
+          "type": "color"
+        },
+        "On-Informative-Container": {
+          "value": "{Informative.70}",
+          "type": "color"
         }
       },
-      "Surface": {
-        "Light": {
-          "Inverted": {
-            "value": "{Neutral.80}",
-            "type": "color"
-          },
-          "On-Interted": {
-            "value": "{Neutral.10}",
-            "type": "color"
-          },
-          "Background": {
-            "value": "{Neutral.5}",
-            "type": "color"
-          },
-          "Surface": {
-            "value": "{Neutral.0}",
-            "type": "color"
-          },
-          "Surface-Variant": {
-            "value": "{Neutral.15}",
-            "type": "color"
-          },
-          "Outline": {
-            "value": "{Neutral.20}",
-            "type": "color"
-          },
-          "Outline-Variant": {
-            "value": "{Neutral.30}",
-            "type": "color"
-          }
+      "surface": {
+        "Inverted": {
+          "value": "{Neutral.80}",
+          "type": "color"
         },
-        "Dark": {
-          "Inverted": {
-            "value": "{Neutral.20}",
-            "type": "color"
-          },
-          "On-Interted": {
-            "value": "{Neutral.90}",
-            "type": "color"
-          },
-          "Background": {
-            "value": "{Neutral.95}",
-            "type": "color"
-          },
-          "Surface": {
-            "value": "{Neutral.90}",
-            "type": "color"
-          },
-          "Surface-Variant": {
-            "value": "{Neutral.100}",
-            "type": "color"
-          },
-          "Outline": {
-            "value": "{Neutral.80}",
-            "type": "color"
-          },
-          "Outline-Variant": {
-            "value": "{Neutral.70}",
-            "type": "color"
-          }
+        "On-Interted": {
+          "value": "{Neutral.10}",
+          "type": "color"
+        },
+        "Background": {
+          "value": "{Neutral.5}",
+          "type": "color"
+        },
+        "Surface": {
+          "value": "{Neutral.0}",
+          "type": "color"
+        },
+        "Surface-Variant": {
+          "value": "{Neutral.15}",
+          "type": "color"
+        },
+        "Outline": {
+          "value": "{Neutral.20}",
+          "type": "color"
+        },
+        "Outline-Variant": {
+          "value": "{Neutral.30}",
+          "type": "color"
         }
       },
-      "Decorative": {
-        "Light": {
-          "Solar": {
-            "value": "#FDBD4D",
-            "type": "color"
-          }
-        },
-        "Dark": {
-          "Solar": {
-            "value": "#FFD180",
-            "type": "color"
-          }
+      "decorative": {
+        "Solar": {
+          "value": "#FDBD4D",
+          "type": "color"
         }
       },
-      "Interaction-States": {
-        "On-Light": {
-          "Focussed": {
-            "value": "rgba({Neutral.90}, 0.12)",
-            "type": "color",
-            "description": "<token>rgba({primary}, {opac-5})</token>\n"
-          },
-          "Focussed-Primary": {
-            "value": "rgba({Neutral.0}, 0.12)",
-            "type": "color",
-            "description": "<token>rgba({on-primary}, {opac-5})</token>\n"
-          },
-          "Active": {
-            "value": "rgba({Neutral.80}, 1.0)",
-            "type": "color",
-            "description": "<token>rgba({inverted})</token>\n"
-          },
-          "Enabled": {
-            "value": "rgba({Neutral.20}, 1.0)",
-            "type": "color",
-            "description": "<token>rgba({secondary-container})</token>\n"
-          },
-          "Highlight": {
-            "value": "rgba(#3CCFDF, 1.0)",
-            "type": "color"
-          },
-          "Disabled-Content": {
-            "value": "rgba({Neutral.80}, 0.38)",
-            "type": "color",
-            "description": "<token>rgba({inverted}, {opac-3})</token>\n"
-          },
-          "Disabled-Container": {
-            "value": "rgba({Neutral.80}, 0.12)",
-            "type": "color",
-            "description": "<token>rgba({inverted}, {opac-5})</token>\n"
-          }
-        },
-        "On-Dark": {
-          "Focused": {
-            "value": "rgba({Neutral.0}, 0.08)",
-            "type": "color",
-            "description": "<token>rgba({primary}, {opac-5})</token>\n"
-          },
-          "Focused-Primary": {
-            "value": "rgba({Neutral.90}, 0.08)",
-            "type": "color",
-            "description": "<token>rgba({on-primary}, {opac-5})</token>\n"
-          },
-          "Active": {
-            "value": "rgba({Neutral.20}, 1.0)",
-            "type": "color",
-            "description": "<token>rgba({inverted})</token>\n"
-          },
-          "Enabled": {
-            "value": "rgba({Neutral.80}, 1.0)",
-            "type": "color",
-            "description": "<token>rgba({secondary-container})</token>\n"
-          },
-          "Highlight": {
-            "value": "rgba(#63D9E5, 1.0)",
-            "type": "color"
-          },
-          "Disabled-Content": {
-            "value": "rgba({Neutral.20}, 0.30)",
-            "type": "color",
-            "description": "<token>rgba({inverted}, {opac-3})</token>\n"
-          },
-          "Disabled-Container": {
-            "value": "rgba({Neutral.20}, 0.08)",
-            "type": "color",
-            "description": "<token>rgba({inverted}, {opac-5})</token>\n"
-          }
-        }
-      },
-      "Overlays": {
-        "Light": {
-          "Partial-Scrim": {
-            "value": "linear-gradient(180deg, rgba({Neutral.15}, 1.0) 0%, rgba({Neutral.15}, 0.0) 100%)",
-            "type": "color"
-          }
-        },
-        "Dark": {
-          "Partial-Scrim-copy": {
-            "value": "linear-gradient(180deg, rgba({Neutral.100}, 1.0) 0%, rgba({Neutral.100}, 0.0) 100%)",
-            "type": "color"
-          }
+      "overlays": {
+        "Partial-Scrim": {
+          "value": "linear-gradient(180deg, rgba({Neutral.15}, 1.0) 0%, rgba({Neutral.15}, 0.0) 100%)",
+          "type": "color"
         }
       }
     },
@@ -1313,13 +1103,220 @@
     "rounded": {
       "value": "{radii-32}",
       "type": "borderRadius"
+    },
+    "dark": {
+      "main": {
+        "Primary": {
+          "value": "{Neutral.0}",
+          "type": "color"
+        },
+        "On-Primary": {
+          "value": "{Neutral.90}",
+          "type": "color"
+        },
+        "Secondary": {
+          "value": "{Neutral.15}",
+          "type": "color"
+        },
+        "Secondary-Container": {
+          "value": "{Neutral.80}",
+          "type": "color"
+        }
+      },
+      "system": {
+        "Error": {
+          "value": "{Error.40}",
+          "type": "color"
+        },
+        "On-Error": {
+          "value": "{Error.90}",
+          "type": "color"
+        },
+        "Error-Container": {
+          "value": "{Error.80}",
+          "type": "color"
+        },
+        "On-Error-Container": {
+          "value": "{Error.20}",
+          "type": "color"
+        },
+        "Warning": {
+          "value": "{Warning.40}",
+          "type": "color"
+        },
+        "On-Warning": {
+          "value": "{Warning.90}",
+          "type": "color"
+        },
+        "Warning-Container": {
+          "value": "{Warning.80}",
+          "type": "color"
+        },
+        "On-Warning-Container": {
+          "value": "{Warning.20}",
+          "type": "color"
+        },
+        "Success": {
+          "value": "{Success.40}",
+          "type": "color"
+        },
+        "On-Success": {
+          "value": "{Success.90}",
+          "type": "color"
+        },
+        "Success-Container": {
+          "value": "{Success.80}",
+          "type": "color"
+        },
+        "On-Success-Container": {
+          "value": "{Success.20}",
+          "type": "color"
+        },
+        "Informative": {
+          "value": "{Informative.40}",
+          "type": "color"
+        },
+        "On-Informative": {
+          "value": "{Informative.90}",
+          "type": "color"
+        },
+        "Informative-Container": {
+          "value": "{Informative.80}",
+          "type": "color"
+        },
+        "On-Informative-Container": {
+          "value": "{Informative.20}",
+          "type": "color"
+        }
+      },
+      "Surface": {
+        "Inverted": {
+          "value": "{Neutral.20}",
+          "type": "color"
+        },
+        "On-Interted": {
+          "value": "{Neutral.90}",
+          "type": "color"
+        },
+        "Background": {
+          "value": "{Neutral.95}",
+          "type": "color"
+        },
+        "Surface": {
+          "value": "{Neutral.90}",
+          "type": "color"
+        },
+        "Surface-Variant": {
+          "value": "{Neutral.100}",
+          "type": "color"
+        },
+        "Outline": {
+          "value": "{Neutral.80}",
+          "type": "color"
+        },
+        "Outline-Variant": {
+          "value": "{Neutral.70}",
+          "type": "color"
+        }
+      },
+      "Decorative": {
+        "Solar": {
+          "value": "#FFD180",
+          "type": "color"
+        }
+      },
+      "Overlays": {
+        "Partial-Scrim-copy": {
+          "value": "linear-gradient(180deg, rgba({Neutral.100}, 1.0) 0%, rgba({Neutral.100}, 0.0) 100%)",
+          "type": "color"
+        }
+      }
+    }
+  },
+  "Comp Tokens": {
+    "dark": {
+      "Interaction-States": {
+        "Focused": {
+          "value": "rgba({dark.main.Primary}, 0.08)",
+          "type": "color",
+          "description": "<token>rgba({primary}, {opac-5})</token>\n"
+        },
+        "Focused-Primary": {
+          "value": "rgba({dark.main.On-Primary}, 0.08)",
+          "type": "color",
+          "description": "<token>rgba({on-primary}, {opac-5})</token>\n"
+        },
+        "Active": {
+          "value": "{dark.Surface.Inverted}",
+          "type": "color",
+          "description": "<token>rgba({inverted})</token>\n"
+        },
+        "Enabled": {
+          "value": "{dark.main.Secondary-Container}",
+          "type": "color",
+          "description": "<token>rgba({secondary-container})</token>\n"
+        },
+        "Highlight": {
+          "value": "rgba(#63D9E5, 1.0)",
+          "type": "color"
+        },
+        "Disabled-Content": {
+          "value": "rgba({dark.Surface.Inverted}, 0.30)",
+          "type": "color",
+          "description": "<token>rgba({inverted}, {opac-3})</token>\n"
+        },
+        "Disabled-Container": {
+          "value": "rgba({dark.Surface.Inverted}, 0.08)",
+          "type": "color",
+          "description": "<token>rgba({inverted}, {opac-5})</token>\n"
+        }
+      }
+    },
+    "light": {
+      "Interaction-States": {
+        "Focused": {
+          "value": "rgba({light.main.Primary}, 0.12)",
+          "type": "color",
+          "description": "<token>rgba({primary}, {opac-5})</token>\n"
+        },
+        "Focused-Primary": {
+          "value": "rgba({light.main.On-Primary}, 0.12)",
+          "type": "color",
+          "description": "<token>rgba({on-primary}, {opac-5})</token>\n"
+        },
+        "Active": {
+          "value": "{light.surface.Inverted}",
+          "type": "color",
+          "description": "<token>rgba({inverted})</token>\n"
+        },
+        "Enabled": {
+          "value": "{light.main.Secondary-Container}",
+          "type": "color",
+          "description": "<token>rgba({secondary-container})</token>\n"
+        },
+        "Highlight": {
+          "value": "rgba(#63D9E5, 1.0)",
+          "type": "color"
+        },
+        "Disabled-Content": {
+          "value": "rgba({light.surface.Inverted}, 0.38)",
+          "type": "color",
+          "description": "<token>rgba({inverted}, {opac-3})</token>\n"
+        },
+        "Disabled-Container": {
+          "value": "rgba({light.surface.Inverted}, 0.12)",
+          "type": "color",
+          "description": "<token>rgba({inverted}, {opac-5})</token>\n"
+        }
+      }
     }
   },
   "$themes": [],
   "$metadata": {
     "tokenSetOrder": [
-      "Reference Tokens",
-      "Foundation Tokens"
+      "Core Tokens",
+      "Base Tokens",
+      "Comp Tokens"
     ]
   }
 }
