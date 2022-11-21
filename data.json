@@ -1000,7 +1000,7 @@
           "value": "{Neutral.80}",
           "type": "color"
         },
-        "On-Interted": {
+        "On-Inverted": {
           "value": "{Neutral.10}",
           "type": "color"
         },
@@ -1196,7 +1196,7 @@
           "value": "{Neutral.20}",
           "type": "color"
         },
-        "On-Interted": {
+        "On-Inverted": {
           "value": "{Neutral.90}",
           "type": "color"
         },
