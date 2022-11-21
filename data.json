@@ -1278,38 +1278,33 @@
   "Comp Tokens / Core": {
     "interaction-states": {
       "focused": {
-        "value": "rgba({main.primary}, 0.12)",
-        "type": "color",
-        "description": "<token>rgba({primary}, {opac-5})</token>\n"
+        "value": "rgba({main.primary}, {opac-5})",
+        "type": "color"
       },
       "focused-primary": {
-        "value": "rgba({main.on-primary}, 0.12)",
+        "value": "rgba({main.on-primary}, {opac-5})",
         "type": "color",
         "description": "<token>rgba({on-primary}, {opac-5})</token>\n"
       },
       "active": {
         "value": "{surface.inverted}",
-        "type": "color",
-        "description": "<token>rgba({inverted})</token>\n"
+        "type": "color"
       },
       "enabled": {
         "value": "{main.secondary-container}",
-        "type": "color",
-        "description": "<token>rgba({secondary-container})</token>\n"
+        "type": "color"
       },
       "highlight": {
         "value": "rgba(#63d9e5, 1.0)",
         "type": "color"
       },
       "disabled-content": {
-        "value": "rgba({surface.inverted}, 0.38)",
-        "type": "color",
-        "description": "<token>rgba({inverted}, {opac-3})</token>\n"
+        "value": "rgba({surface.inverted}, {opac-3})",
+        "type": "color"
       },
       "disabled-container": {
-        "value": "rgba({surface.inverted}, 0.12)",
-        "type": "color",
-        "description": "<token>rgba({inverted}, {opac-5})</token>\n"
+        "value": "rgba({surface.inverted}, {opac-5})",
+        "type": "color"
       }
     },
     "app": {
