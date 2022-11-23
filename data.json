@@ -1130,7 +1130,7 @@
       "description": "Inactive"
     },
     "opac-5": {
-      "value": "{opacity-8}",
+      "value": "{opacity-12}",
       "type": "opacity",
       "description": "Disabled Container"
     },
@@ -1264,11 +1264,11 @@
   "Comp Tokens": {
     "interaction-states": {
       "focused": {
-        "value": "rgba({main.primary}, {opac-4})",
+        "value": "rgba({main.primary}, {opac-5})",
         "type": "color"
       },
       "focused-primary": {
-        "value": "rgba({main.on-primary}, {opac-4})",
+        "value": "rgba({main.on-primary}, {opac-5})",
         "type": "color"
       },
       "active": {
