@@ -938,7 +938,7 @@
   "Base Tokens / Light": {
     "main": {
       "primary": {
-        "value": "{neutral.90}",
+        "value": "{neutral.95}",
         "type": "color"
       },
       "on-primary": {
@@ -950,7 +950,7 @@
         "type": "color"
       },
       "secondary-container": {
-        "value": "{neutral.20}",
+        "value": "{neutral.15}",
         "type": "color"
       }
     },
@@ -1022,7 +1022,7 @@
     },
     "surface": {
       "inverted": {
-        "value": "{neutral.80}",
+        "value": "{neutral.85}",
         "type": "color"
       },
       "on-inverted": {
@@ -1038,7 +1038,7 @@
         "type": "color"
       },
       "surface-variant": {
-        "value": "{neutral.10}",
+        "value": "{neutral.15}",
         "type": "color"
       },
       "outline": {
@@ -1200,7 +1200,7 @@
     },
     "surface": {
       "inverted": {
-        "value": "{neutral.20}",
+        "value": "{neutral.10}",
         "type": "color"
       },
       "on-inverted": {
@@ -1377,7 +1377,20 @@
         "surface.outline": "S:8d8bc0b0db6d505beb8e0da7640309efcdc39bb9,",
         "surface.outline-variant": "S:18deb72e85284ca972f779d78f1f041d6db626e0,",
         "decorative.solar": "S:7de0c90fc62102c97530672287ee77af0ded966f,",
-        "overlays.partial-scrim": "S:c5cf8de363bd29351fc2474117fcc9ebd7deca63,"
+        "overlays.partial-scrim": "S:c5cf8de363bd29351fc2474117fcc9ebd7deca63,",
+        "App.heading-1": "S:bc7b0faf0ada15b0f71f3ecdb491185319f95f70,",
+        "App.heading-2": "S:d1f79ff00be9e88f9c7f495433e27d39690c5873,",
+        "App.heading-3": "S:18070e47083dceeadf0148fd3e64feff40be8b34,",
+        "App.body": "S:c80fdfefd109a023f790a70b728dd9247db8e26f,",
+        "App.subHeading": "S:864e6c3e6d99092517fd8966839463d4bf9b4d8c,",
+        "App.footNote": "S:b20cc1212135ad1ccf9e81ecf94e6133ef836eaf,",
+        "App.caption": "S:bb4c92fe6470b09f9be4e8c692bcc4bccc602472,",
+        "App.button": "S:b02c27de4c32ae294c4439d44f8f7d543d9cbcc8,",
+        "Car Infotainment.heading-1": "S:bd3f0f87347da801cc9f10011bffae4c41f177b6,",
+        "Car Infotainment.heading-2": "S:c89c19c5a7e1069d62e16f9a315533d74278cde2,",
+        "Car Infotainment.heading-3": "S:9cfd8855a38ba29e6c2323ea956ac5744bcddd2a,",
+        "Car Infotainment.body": "S:f6b40dda4b08b3af959a8115452696697c002056,",
+        "Car Infotainment.button": "S:38edb07bcf71448dd09011e2eeb980e95728320d,"
       }
     }
   ],
