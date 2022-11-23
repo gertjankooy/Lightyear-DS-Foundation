@@ -1264,11 +1264,11 @@
   "Comp Tokens": {
     "interaction-states": {
       "focused": {
-        "value": "rgba({main.primary}, {opac-5})",
+        "value": "rgba({main.primary}, {opac-4})",
         "type": "color"
       },
       "focused-primary": {
-        "value": "rgba({main.on-primary}, {opac-5})",
+        "value": "rgba({main.on-primary}, {opac-4})",
         "type": "color"
       },
       "active": {
