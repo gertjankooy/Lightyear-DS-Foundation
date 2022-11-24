@@ -1299,6 +1299,10 @@
         "regular": {
           "value": "{button.size.small}",
           "type": "sizing"
+        },
+        "small": {
+          "value": "{button.size.x-small}",
+          "type": "sizing"
         }
       }
     }
