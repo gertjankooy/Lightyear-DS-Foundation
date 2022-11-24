@@ -1359,7 +1359,8 @@
         "interaction-states.highlight": "S:f673b984e1692228b8ce13cb355e06d67e0870f8,",
         "interaction-states.disabled-content": "S:44bfff82a6183a460f96da3fe33de597322603cf,",
         "interaction-states.disabled-container": "S:0c025e90c057778e22eb5407746ca2882f2a6b0a,",
-        "system.on-error": "S:00e94683c4c9997b936e6b2b8e888d3921009fc7,"
+        "system.on-error": "S:00e94683c4c9997b936e6b2b8e888d3921009fc7,",
+        "overlays.partial-scrim-inverted": "S:20c78590101b478cfdaafbda4518ad910dde94e2,"
       }
     },
     {
