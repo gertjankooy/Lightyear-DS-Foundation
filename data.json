@@ -894,7 +894,7 @@
         "type": "sizing"
       },
       "close-friends": {
-        "value": "{space-12}",
+        "value": "{space-16}",
         "type": "sizing"
       },
       "close-ish-friends": {
