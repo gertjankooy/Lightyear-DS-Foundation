@@ -1076,12 +1076,6 @@
         "type": "color"
       }
     },
-    "overlays": {
-      "partial-scrim": {
-        "value": "linear-gradient(180deg, rgba({neutral.15}, 1.0) 0%, rgba({neutral.15}, 0.0) 100%)",
-        "type": "color"
-      }
-    },
     "opac-1": {
       "value": "{opacity-80}",
       "type": "opacity",
@@ -1253,12 +1247,6 @@
         "value": "#FFD180",
         "type": "color"
       }
-    },
-    "overlays": {
-      "partial-scrim": {
-        "value": "linear-gradient(180deg, rgba({neutral.100}, 1.0) 0%, rgba({neutral.100}, 0.0) 100%)",
-        "type": "color"
-      }
     }
   },
   "Comp Tokens": {
@@ -1304,6 +1292,16 @@
           "value": "{button.size.x-small}",
           "type": "sizing"
         }
+      }
+    },
+    "overlays": {
+      "partial-scrim": {
+        "value": "linear-gradient(180deg, rgba({main.on-primary}, 0.0) 0%, rgba({main.on-primary}, 1.0) 100%)",
+        "type": "color"
+      },
+      "partial-scrim-inverted": {
+        "value": "linear-gradient(180deg, rgba({main.primary}, 0.0) 0%, rgba({main.primary}, 1.0) 100%)",
+        "type": "color"
       }
     }
   },
