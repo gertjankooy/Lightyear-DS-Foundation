@@ -953,6 +953,30 @@
           "type": "sizing"
         }
       }
+    },
+    "bff": {
+      "value": "{space-4}",
+      "type": "spacing"
+    },
+    "bestFriends": {
+      "value": "{space-8}",
+      "type": "spacing"
+    },
+    "closeFriends": {
+      "value": "{space-16}",
+      "type": "spacing"
+    },
+    "closeIshFriends": {
+      "value": "{space-24}",
+      "type": "spacing"
+    },
+    "friends": {
+      "value": "{space-32}",
+      "type": "spacing"
+    },
+    "aquaintances": {
+      "value": "{space-48}",
+      "type": "spacing"
     }
   },
   "Base Tokens / Light": {
@@ -1303,6 +1327,16 @@
         "value": "linear-gradient(180deg, rgba({main.primary}, 0.0) 0%, rgba({main.primary}, 1.0) 100%)",
         "type": "color"
       }
+    },
+    "utility": {
+      "utility-1": {
+        "value": "#CF2FBF",
+        "type": "color"
+      },
+      "utility-2": {
+        "value": "#9747FF",
+        "type": "color"
+      }
     }
   },
   "$themes": [
@@ -1360,7 +1394,9 @@
         "interaction-states.disabled-content": "S:ffdb16e0b9bcf17096528ba8fe5c8338f2a529dd,",
         "interaction-states.disabled-container": "S:d198122fd02faef1b7e395c01f277f48e27c1029,",
         "system.on-error": "S:84eb20771870acd08e8cf8641a7957dd92b7c068,",
-        "overlays.partial-scrim-inverted": "S:cdfec7ac10e8c3091a94f84fa2c2f464c8930442,"
+        "overlays.partial-scrim-inverted": "S:cdfec7ac10e8c3091a94f84fa2c2f464c8930442,",
+        "utility.utility-1": "S:b0edd356bdde3508e105c0897fdde6ea60bf5c57,",
+        "utility.utility-2": "S:907ae8f37af9a59dcfa4f96b16c38604f4e5ba7c,"
       }
     },
     {
@@ -1430,7 +1466,9 @@
         "interaction-states.disabled-content": "S:f761201bb3b9ff413bc61420546d7f2dbb1b1ebb,",
         "interaction-states.disabled-container": "S:0fb8ee9a9559b8dee94266fbefa37e70dfda9aef,",
         "overlays.partial-scrim-inverted": "S:9626a94c5314175e1784e701498f644a674002b2,",
-        "system.on-error": "S:9176eda9ea2f527251f4d5ed51e7bec2769726fc,"
+        "system.on-error": "S:9176eda9ea2f527251f4d5ed51e7bec2769726fc,",
+        "utility.utility-1": "S:90ebfd5213c4d540932d3a74e363ddd7d8399012,",
+        "utility.utility-2": "S:a1984b1ea2f9d6c059bf1112c613335f86de2dac,"
       }
     }
   ],
