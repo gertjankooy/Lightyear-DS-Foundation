@@ -927,10 +927,10 @@
       "type": "borderRadius"
     },
     "large": {
-      "value": "{radii-12}",
+      "value": "{radii-16}",
       "type": "borderRadius"
     },
-    "extra-large": {
+    "rounded": {
       "value": "{radii-round}",
       "type": "borderRadius"
     },
