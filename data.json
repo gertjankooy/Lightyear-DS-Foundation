@@ -981,6 +981,16 @@
     "aquaintances": {
       "value": "{space-48}",
       "type": "spacing"
+    },
+    "border-loud": {
+      "value": "1",
+      "type": "borderWidth",
+      "description": "enabled but not active"
+    },
+    "border-active": {
+      "value": "2",
+      "type": "borderWidth",
+      "description": "Active"
     }
   },
   "Base Tokens / Light": {
