@@ -927,6 +927,10 @@
       "type": "borderRadius"
     },
     "large": {
+      "value": "{radii-12}",
+      "type": "borderRadius"
+    },
+    "x-large": {
       "value": "{radii-16}",
       "type": "borderRadius"
     },
