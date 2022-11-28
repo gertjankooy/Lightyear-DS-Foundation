@@ -1104,6 +1104,10 @@
         "type": "color"
       }
     },
+    "opac-0": {
+      "value": "0%",
+      "type": "opacity"
+    },
     "opac-1": {
       "value": "{opacity-80}",
       "type": "opacity",
