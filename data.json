@@ -1344,6 +1344,10 @@
       "partial-scrim-inverted": {
         "value": "linear-gradient(180deg, rgba({main.primary}, 0.0) 0%, rgba({main.primary}, 1.0) 100%)",
         "type": "color"
+      },
+      "full-scrim": {
+        "value": "rgba({main.primary}, {opac-2})",
+        "type": "color"
       }
     },
     "utility": {
