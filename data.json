@@ -1112,6 +1112,10 @@
       "solar": {
         "value": "#FDBD4D",
         "type": "color"
+      },
+      "ocean-blue": {
+        "value": "#00C7DA",
+        "type": "color"
       }
     },
     "opac-0": {
@@ -1288,6 +1292,10 @@
       "solar": {
         "value": "#FFD180",
         "type": "color"
+      },
+      "ocean-blue": {
+        "value": "#63D9E5",
+        "type": "color"
       }
     }
   },
@@ -1310,7 +1318,7 @@
         "type": "color"
       },
       "highlight": {
-        "value": "rgba(#63D9E5, 1.0)",
+        "value": "{decorative.ocean-blue}",
         "type": "color"
       },
       "disabled-content": {
