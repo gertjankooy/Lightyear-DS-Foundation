@@ -1095,13 +1095,19 @@
         "value": "{neutral.0}",
         "type": "color"
       },
+      "float": {
+        "value": "{neutral.20}",
+        "type": "color",
+        "description": "This color is used to seperate a container from the surface of the current view. But mostly used with full scrim.\n\nEg. App launcher, modals and quick controls in In-car experience."
+      },
       "background": {
         "value": "{neutral.5}",
         "type": "color"
       },
-      "surface-variant": {
+      "submerged": {
         "value": "{neutral.15}",
-        "type": "color"
+        "type": "color",
+        "description": "This is submerged in the surface"
       },
       "outline": {
         "value": "{neutral.20}",
@@ -1280,13 +1286,19 @@
         "value": "{neutral.90}",
         "type": "color"
       },
+      "float": {
+        "value": "{neutral.80}",
+        "type": "color",
+        "description": "This color is used to seperate a container from the surface of the current view. But mostly used with full scrim.\n\nEg. App launcher, modals and quick controls in In-car experience."
+      },
       "background": {
         "value": "{neutral.95}",
         "type": "color"
       },
-      "surface-variant": {
+      "submerged": {
         "value": "{neutral.100}",
-        "type": "color"
+        "type": "color",
+        "description": "This is always submerged of the surface"
       },
       "outline": {
         "value": "{neutral.80}",
@@ -1420,7 +1432,6 @@
         "surface.on-inverted": "S:fe377b3908d6347cc27fb3d46f5a09d49f553067,",
         "surface.surface": "S:511fe5d84a2cecf065a99a7da05363223d696861,",
         "surface.background": "S:3a27a7642c5915e9884212243b4bd753b88a1bc6,",
-        "surface.surface-variant": "S:4e0426a75cf595c8f51517c1270ff779c410b770,",
         "surface.outline": "S:ef124649d80b42163f8f6b23f93ae50278e9d40f,",
         "surface.outline-variant": "S:4faf6d12884c6f3439b617de825a091ff295a7f2,",
         "decorative.solar": "S:eb8cd18b54af06a825a077f2c9df3aa0acd1ced3,",
@@ -1436,7 +1447,8 @@
         "overlays.partial-scrim-inverted": "S:cdfec7ac10e8c3091a94f84fa2c2f464c8930442,",
         "utility.utility-1": "S:b0edd356bdde3508e105c0897fdde6ea60bf5c57,",
         "utility.utility-2": "S:907ae8f37af9a59dcfa4f96b16c38604f4e5ba7c,",
-        "overlays.full-scrim": "S:c620a5bf757980367a2365973017c795e9d0505c,"
+        "overlays.full-scrim": "S:c620a5bf757980367a2365973017c795e9d0505c,",
+        "surface.submerged": "S:4e0426a75cf595c8f51517c1270ff779c410b770,"
       }
     },
     {
@@ -1480,7 +1492,6 @@
         "surface.on-inverted": "S:7427949544a2385c389f0ed6fc1a127e86c973c1,",
         "surface.surface": "S:ef8fd82f69c69cf635fb11b404e39a7b5828abab,",
         "surface.background": "S:8c99f7c11c14e3be6717382cc398dc0451dfb7e1,",
-        "surface.surface-variant": "S:4e79e2de2b81f024646c0e56d4e66dabbc547552,",
         "surface.outline": "S:137ce3d64cddf70d019c8419dd6d1d2ad5b92a51,",
         "surface.outline-variant": "S:0792a4323cebacfd4f9eb0cb2113d612554e7f80,",
         "decorative.solar": "S:9f10729a128a44569b21e30aa8dc825e5f064ed9,",
@@ -1509,7 +1520,8 @@
         "system.on-error": "S:9176eda9ea2f527251f4d5ed51e7bec2769726fc,",
         "utility.utility-1": "S:90ebfd5213c4d540932d3a74e363ddd7d8399012,",
         "utility.utility-2": "S:a1984b1ea2f9d6c059bf1112c613335f86de2dac,",
-        "overlays.full-scrim": "S:06eff93d69741ba48ec6635d3691667be584ac10,"
+        "overlays.full-scrim": "S:06eff93d69741ba48ec6635d3691667be584ac10,",
+        "surface.submerged": "S:4e79e2de2b81f024646c0e56d4e66dabbc547552,"
       }
     }
   ],
