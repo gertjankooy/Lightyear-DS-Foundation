@@ -1091,6 +1091,15 @@
         "value": "{neutral.10}",
         "type": "color"
       },
+      "submerged": {
+        "value": "{neutral.15}",
+        "type": "color",
+        "description": "This is submerged in the surface"
+      },
+      "background": {
+        "value": "{neutral.5}",
+        "type": "color"
+      },
       "surface": {
         "value": "{neutral.0}",
         "type": "color"
@@ -1099,15 +1108,6 @@
         "value": "{neutral.20}",
         "type": "color",
         "description": "This color is used to seperate a container from the surface of the current view. But mostly used with full scrim.\n\nEg. App launcher, modals and quick controls in In-car experience."
-      },
-      "background": {
-        "value": "{neutral.5}",
-        "type": "color"
-      },
-      "submerged": {
-        "value": "{neutral.15}",
-        "type": "color",
-        "description": "This is submerged in the surface"
       },
       "outline": {
         "value": "{neutral.20}",
@@ -1282,6 +1282,15 @@
         "value": "{neutral.90}",
         "type": "color"
       },
+      "submerged": {
+        "value": "{neutral.100}",
+        "type": "color",
+        "description": "This is always submerged of the surface"
+      },
+      "background": {
+        "value": "{neutral.95}",
+        "type": "color"
+      },
       "surface": {
         "value": "{neutral.90}",
         "type": "color"
@@ -1290,15 +1299,6 @@
         "value": "{neutral.80}",
         "type": "color",
         "description": "This color is used to seperate a container from the surface of the current view. But mostly used with full scrim.\n\nEg. App launcher, modals and quick controls in In-car experience."
-      },
-      "background": {
-        "value": "{neutral.95}",
-        "type": "color"
-      },
-      "submerged": {
-        "value": "{neutral.100}",
-        "type": "color",
-        "description": "This is always submerged of the surface"
       },
       "outline": {
         "value": "{neutral.80}",
