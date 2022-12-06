@@ -1091,11 +1091,6 @@
         "value": "{neutral.10}",
         "type": "color"
       },
-      "submerged": {
-        "value": "{neutral.15}",
-        "type": "color",
-        "description": "This is submerged in the surface"
-      },
       "background": {
         "value": "{neutral.5}",
         "type": "color"
@@ -1282,11 +1277,6 @@
         "value": "{neutral.90}",
         "type": "color"
       },
-      "submerged": {
-        "value": "{neutral.100}",
-        "type": "color",
-        "description": "This is always submerged of the surface"
-      },
       "background": {
         "value": "{neutral.95}",
         "type": "color"
@@ -1447,8 +1437,7 @@
         "overlays.partial-scrim-inverted": "S:cdfec7ac10e8c3091a94f84fa2c2f464c8930442,",
         "utility.utility-1": "S:b0edd356bdde3508e105c0897fdde6ea60bf5c57,",
         "utility.utility-2": "S:907ae8f37af9a59dcfa4f96b16c38604f4e5ba7c,",
-        "overlays.full-scrim": "S:c620a5bf757980367a2365973017c795e9d0505c,",
-        "surface.submerged": "S:4e0426a75cf595c8f51517c1270ff779c410b770,"
+        "overlays.full-scrim": "S:c620a5bf757980367a2365973017c795e9d0505c,"
       }
     },
     {
@@ -1520,8 +1509,7 @@
         "system.on-error": "S:9176eda9ea2f527251f4d5ed51e7bec2769726fc,",
         "utility.utility-1": "S:90ebfd5213c4d540932d3a74e363ddd7d8399012,",
         "utility.utility-2": "S:a1984b1ea2f9d6c059bf1112c613335f86de2dac,",
-        "overlays.full-scrim": "S:06eff93d69741ba48ec6635d3691667be584ac10,",
-        "surface.submerged": "S:4e79e2de2b81f024646c0e56d4e66dabbc547552,"
+        "overlays.full-scrim": "S:06eff93d69741ba48ec6635d3691667be584ac10,"
       }
     }
   ],
