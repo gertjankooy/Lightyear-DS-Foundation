@@ -877,7 +877,17 @@
         },
         "type": "typography"
       },
-      "button": {
+      "button-1": {
+        "value": {
+          "fontFamily": "{base-font-family}",
+          "fontWeight": "{font-weight-bold}",
+          "lineHeight": "Auto",
+          "fontSize": "{font-size-22}",
+          "letterSpacing": "{letter-spacing-0}"
+        },
+        "type": "typography"
+      },
+      "button-2": {
         "value": {
           "fontFamily": "{base-font-family}",
           "fontWeight": "{font-weight-medium}",
@@ -1450,7 +1460,7 @@
         "Car Infotainment.heading-2": "S:57ad79a97cf582678e65628cfd6735fb609dd219,",
         "Car Infotainment.heading-3": "S:72b74cce80bdbab8db1a6b19ac10dde201f33587,",
         "Car Infotainment.body": "S:b099e2ab2539ac5d382d911bf8a33a37c304d545,",
-        "Car Infotainment.button": "S:e80a4ac66c618dc9854e413c80785d2552a27d3a,"
+        "Car Infotainment.button-1": "S:e80a4ac66c618dc9854e413c80785d2552a27d3a,"
       }
     },
     {
@@ -1510,7 +1520,6 @@
         "Car Infotainment.heading-2": "S:1c4230af3a183511db5ab7bc3a7aa7a334388424,",
         "Car Infotainment.heading-3": "S:d747542f9d022250daf61f1e14460bb7b4d0b00a,",
         "Car Infotainment.body": "S:334d13ee56876ae79178e558ae6377b3d9c18f13,",
-        "Car Infotainment.button": "S:c1477a1240a015b870b0d6acbdd7395b0c62ec82,",
         "interaction-states.focused": "S:40a6cc0ff4c8c21a3becd9b0e5486f42d6467375,",
         "interaction-states.focused-primary": "S:b74e426850c43fdf74457440056a34e17c18d47d,",
         "interaction-states.active": "S:0dac593eb4da2b36d925d92e193bd28b003ce5e2,",
@@ -1524,7 +1533,8 @@
         "utility.utility-2": "S:ff816c20e24cf1b606bb20359eb018c2517b7ed1,",
         "overlays.full-scrim": "S:02ff67e7b9c55a4fbf42bb3258317a6bdaac80be,",
         "surface.float": "S:e9036f1eba0efede8f504730996e0993ee4cb4b3,",
-        "decorative.ocean-blue": "S:4ded22beb41b4b7b5b9bda6171ad35adcc0bd668,"
+        "decorative.ocean-blue": "S:4ded22beb41b4b7b5b9bda6171ad35adcc0bd668,",
+        "Car Infotainment.button-1": "S:c1477a1240a015b870b0d6acbdd7395b0c62ec82,"
       }
     }
   ],
