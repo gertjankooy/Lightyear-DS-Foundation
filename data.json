@@ -1018,7 +1018,7 @@
     },
     "system": {
       "error": {
-        "value": "{error.90}",
+        "value": "{error.50}",
         "type": "color"
       },
       "on-error": {
