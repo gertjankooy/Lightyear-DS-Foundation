@@ -1101,8 +1101,7 @@
       },
       "float": {
         "value": "{neutral.20}",
-        "type": "color",
-        "description": "This color is used to seperate a container from the surface of the current view. But mostly used with full scrim.\n\nEg. App launcher, modals and quick controls in In-car experience."
+        "type": "color"
       },
       "outline": {
         "value": "{neutral.20}",
@@ -1287,8 +1286,7 @@
       },
       "float": {
         "value": "{neutral.80}",
-        "type": "color",
-        "description": "This color is used to seperate a container from the surface of the current view. But mostly used with full scrim.\n\nEg. App launcher, modals and quick controls in In-car experience."
+        "type": "color"
       },
       "outline": {
         "value": "{neutral.80}",
