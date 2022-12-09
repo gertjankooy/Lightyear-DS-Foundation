@@ -1199,11 +1199,11 @@
     },
     "main": {
       "primary": {
-        "value": "{neutral.0}",
+        "value": "{neutral.5}",
         "type": "color"
       },
       "on-primary": {
-        "value": "{neutral.90}",
+        "value": "{neutral.95}",
         "type": "color"
       },
       "secondary": {
@@ -1296,6 +1296,10 @@
       },
       "surface": {
         "value": "{neutral.90}",
+        "type": "color"
+      },
+      "surface-variant": {
+        "value": "{neutral.85}",
         "type": "color"
       },
       "float": {
