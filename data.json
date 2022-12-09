@@ -440,59 +440,59 @@
         "type": "color"
       },
       "5": {
-        "value": "#F8F8FA",
+        "value": "#F6F6F9",
         "type": "color"
       },
       "10": {
-        "value": "#F1F2F5",
+        "value": "#EDEDF2",
         "type": "color"
       },
       "15": {
-        "value": "#F1F2F5",
+        "value": "#E1E2EA",
         "type": "color"
       },
       "20": {
-        "value": "#DEE0E6",
+        "value": "#D5D7E1",
         "type": "color"
       },
       "30": {
-        "value": "#CED0DA",
+        "value": "#C0C2CE",
         "type": "color"
       },
       "40": {
-        "value": "#ADB0BD",
+        "value": "#A0A3B1",
         "type": "color"
       },
       "50": {
-        "value": "#868996",
+        "value": "#7C7F8D",
         "type": "color"
       },
       "60": {
-        "value": "#636674",
+        "value": "#595C69",
         "type": "color"
       },
       "70": {
-        "value": "#494C57",
+        "value": "#434650",
         "type": "color"
       },
       "80": {
-        "value": "#343640",
+        "value": "#30333B",
         "type": "color"
       },
       "85": {
-        "value": "#2B2E36",
+        "value": "#24272D",
         "type": "color"
       },
       "90": {
-        "value": "#212329",
+        "value": "#1B1D22",
         "type": "color"
       },
       "95": {
-        "value": "#0B0C0E",
+        "value": "#121417",
         "type": "color"
       },
       "100": {
-        "value": "#000000",
+        "value": "#0B0C0F",
         "type": "color"
       }
     },
@@ -1014,7 +1014,7 @@
         "type": "color"
       },
       "on-primary": {
-        "value": "{neutral.0}",
+        "value": "{neutral.5}",
         "type": "color"
       },
       "secondary": {
@@ -1022,7 +1022,7 @@
         "type": "color"
       },
       "secondary-container": {
-        "value": "{neutral.15}",
+        "value": "{neutral.10}",
         "type": "color"
       }
     },
@@ -1098,23 +1098,27 @@
         "type": "color"
       },
       "on-inverted": {
-        "value": "{neutral.10}",
+        "value": "{neutral.0}",
         "type": "color"
       },
       "background": {
-        "value": "{neutral.5}",
+        "value": "{neutral.10}",
         "type": "color"
       },
       "surface": {
         "value": "{neutral.0}",
         "type": "color"
       },
+      "surface-variant": {
+        "value": "{neutral.5}",
+        "type": "color"
+      },
       "float": {
-        "value": "{neutral.20}",
+        "value": "{neutral.15}",
         "type": "color"
       },
       "outline": {
-        "value": "{neutral.20}",
+        "value": "{neutral.15}",
         "type": "color"
       },
       "outline-variant": {
@@ -1460,7 +1464,8 @@
         "Car Infotainment.heading-2": "S:57ad79a97cf582678e65628cfd6735fb609dd219,",
         "Car Infotainment.heading-3": "S:72b74cce80bdbab8db1a6b19ac10dde201f33587,",
         "Car Infotainment.body": "S:b099e2ab2539ac5d382d911bf8a33a37c304d545,",
-        "Car Infotainment.button-1": "S:e80a4ac66c618dc9854e413c80785d2552a27d3a,"
+        "Car Infotainment.button-1": "S:e80a4ac66c618dc9854e413c80785d2552a27d3a,",
+        "surface.surface-variant": "S:18427b387e292370c8c7a9feafeb70343d2ea057,"
       }
     },
     {
