@@ -1381,7 +1381,7 @@
         "type": "color"
       },
       "full-scrim": {
-        "value": "rgba({surface.surface}, {opac-1})",
+        "value": "rgba({surface.background}, {opac-1})",
         "type": "color"
       }
     },
