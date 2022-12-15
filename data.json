@@ -1369,13 +1369,6 @@
           "value": "{button.size.x-small}",
           "type": "sizing"
         }
-      },
-      "breakpoint": {
-        "m": {
-          "value": "{space-20}",
-          "type": "spacing",
-          "description": "Left and right spacing for Medium sizes screens on apps"
-        }
       }
     },
     "overlays": {
@@ -1388,7 +1381,7 @@
         "type": "color"
       },
       "full-scrim": {
-        "value": "rgba({surface.background}, {opac-1})",
+        "value": "rgba({surface.surface}, {opac-1})",
         "type": "color"
       }
     },
