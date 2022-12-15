@@ -1369,6 +1369,13 @@
           "value": "{button.size.x-small}",
           "type": "sizing"
         }
+      },
+      "breakpoint": {
+        "m": {
+          "value": "{space-20}",
+          "type": "spacing",
+          "description": "Left and right spacing for Medium sizes screens on apps"
+        }
       }
     },
     "overlays": {
