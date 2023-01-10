@@ -743,6 +743,50 @@
         "value": "#000000",
         "type": "color"
       }
+    },
+    "motion": {
+      "duration": {
+        "short": {
+          "value": "150ms",
+          "type": "other"
+        },
+        "medium": {
+          "value": "300ms",
+          "type": "other"
+        },
+        "long": {
+          "value": "500ms",
+          "type": "other"
+        }
+      },
+      "curves": {
+        "default": {
+          "value": "Curves.easeInOutCubic",
+          "type": "other"
+        },
+        "decelerated": {
+          "value": "Curves.easeOutCubic",
+          "type": "other"
+        },
+        "accelerated": {
+          "value": "Curves.easeInCubic",
+          "type": "other"
+        },
+        "linear": {
+          "value": "Curves.linear",
+          "type": "other"
+        }
+      },
+      "distance": {
+        "small": {
+          "value": "100",
+          "type": "other"
+        },
+        "large": {
+          "value": "400",
+          "type": "other"
+        }
+      }
     }
   },
   "Base Tokens / Core": {
@@ -1005,6 +1049,20 @@
       "value": "2",
       "type": "borderWidth",
       "description": "Active"
+    },
+    "motion": {
+      "SharedAxis": {
+        "value": "{motion.duration.medium} {motion.curves.default}",
+        "type": "other"
+      },
+      "Fade": {
+        "value": "{motion.duration.short} {motion.curves.linear}",
+        "type": "other"
+      },
+      "PanelSlide": {
+        "value": "{motion.duration.short} {motion.curves.default}",
+        "type": "other"
+      }
     }
   },
   "Base Tokens / Light": {
@@ -1411,8 +1469,7 @@
         "Core Tokens": "source",
         "Comp Tokens": "enabled",
         "Base Tokens / Core": "enabled",
-        "Base Tokens / Light": "enabled",
-        "Base Tokens / Dark": "disabled"
+        "Base Tokens / Light": "enabled"
       },
       "$figmaStyleReferences": {
         "Interaction-States.Focused": "S:3085f9383d419d8bd3b843370ec29298f2030a9f,",
@@ -1485,7 +1542,6 @@
       "selectedTokenSets": {
         "Core Tokens": "source",
         "Base Tokens / Core": "enabled",
-        "Base Tokens / Light": "disabled",
         "Base Tokens / Dark": "enabled",
         "Comp Tokens": "enabled"
       },
