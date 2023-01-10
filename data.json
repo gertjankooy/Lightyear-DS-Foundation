@@ -744,48 +744,46 @@
         "type": "color"
       }
     },
-    "motion": {
-      "duration": {
-        "short": {
-          "value": "150ms",
-          "type": "other"
-        },
-        "medium": {
-          "value": "300ms",
-          "type": "other"
-        },
-        "long": {
-          "value": "500ms",
-          "type": "other"
-        }
+    "duration": {
+      "short": {
+        "value": "150ms",
+        "type": "Motion"
       },
-      "curves": {
-        "default": {
-          "value": "Curves.easeInOutCubic",
-          "type": "other"
-        },
-        "decelerated": {
-          "value": "Curves.easeOutCubic",
-          "type": "other"
-        },
-        "accelerated": {
-          "value": "Curves.easeInCubic",
-          "type": "other"
-        },
-        "linear": {
-          "value": "Curves.linear",
-          "type": "other"
-        }
+      "medium": {
+        "value": "300ms",
+        "type": "Motion"
       },
-      "distance": {
-        "small": {
-          "value": "100",
-          "type": "other"
-        },
-        "large": {
-          "value": "400",
-          "type": "other"
-        }
+      "long": {
+        "value": "500ms",
+        "type": "Motion"
+      }
+    },
+    "curves": {
+      "default": {
+        "value": "Curves.easeInOutCubic",
+        "type": "Motion"
+      },
+      "decelerated": {
+        "value": "Curves.easeOutCubic",
+        "type": "Motion"
+      },
+      "accelerated": {
+        "value": "Curves.easeInCubic",
+        "type": "Motion"
+      },
+      "linear": {
+        "value": "Curves.linear",
+        "type": "Motion"
+      }
+    },
+    "distance": {
+      "small": {
+        "value": "100",
+        "type": "Motion"
+      },
+      "large": {
+        "value": "400",
+        "type": "Motion"
       }
     }
   },
@@ -1050,19 +1048,17 @@
       "type": "borderWidth",
       "description": "Active"
     },
-    "motion": {
-      "SharedAxis": {
-        "value": "{motion.duration.medium} {motion.curves.default}",
-        "type": "other"
-      },
-      "Fade": {
-        "value": "{motion.duration.short} {motion.curves.linear}",
-        "type": "other"
-      },
-      "PanelSlide": {
-        "value": "{motion.duration.short} {motion.curves.default}",
-        "type": "other"
-      }
+    "SharedAxis": {
+      "value": "{duration.medium} {curves.default}",
+      "type": "Motion"
+    },
+    "Fade": {
+      "value": "{duration.short} {curves.linear}",
+      "type": "Motion"
+    },
+    "PanelSlide": {
+      "value": "{duration.short} {curves.default}",
+      "type": "Motion"
     }
   },
   "Base Tokens / Light": {
