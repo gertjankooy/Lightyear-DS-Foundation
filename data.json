@@ -1057,7 +1057,7 @@
       "type": "Motion"
     },
     "PanelSlide": {
-      "value": "{duration.short} {curves.default}",
+      "value": "{duration.medium} {curves.default}",
       "type": "Motion"
     }
   },
